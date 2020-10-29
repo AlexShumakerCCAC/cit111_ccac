@@ -1,0 +1,8 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = CasualThumper
+	email = 72263382+CasualThumper@users.noreply.github.com
